@@ -1,0 +1,22 @@
+
+.main-wrapper {
+    display: flex;
+    justify-content: center; /* Horizontaal centreren */
+    align-items: center; /* Verticaal centreren */
+    height: 100vh; /* Volledige hoogte van het scherm */
+}
+
+.container-col-md-8 {
+    flex: 1;
+    width: 80%; /* Breedte van de container */
+    max-width: 1200px; /* Optioneel: maximum breedte */
+    padding: 20px; /* Optioneel: wat padding */
+}
+
+.col-md-8{
+  flex-direction: column;
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+
